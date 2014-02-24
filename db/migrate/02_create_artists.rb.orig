@@ -1,7 +1,11 @@
 class CreateArtists < ActiveRecord::Migration
   def change
     create_table :artists do |t|
+<<<<<<< HEAD
+      t.string :name
+=======
       t.string :name 
+>>>>>>> Add migrations
     end
   end
 end
