@@ -90,7 +90,7 @@ end
 
 ### The Artist Model
 
-An artist will have many songs and it will have many genres *through* songs. These associations will be taken care of entirely through AR macros, which we'll get to in a bit. What do we mean by *through* songs? The table songs is the `JOIN` table! Remember that from previous labs? That means taht songs has both and `artist_id` and a `genre_id` to combine those two tables together in a many to many relationship.
+An artist will have many songs and it will have many genres *through* songs. These associations will be taken care of entirely through AR macros, which we'll get to in a bit. What do we mean by *through* songs? The table songs is the `JOIN` table! Remember that from previous labs? That means that songs has both and `artist_id` and a `genre_id` to combine those two tables together in a many to many relationship.
 
 Let's take a look at what our artists table will need to look like:
 
