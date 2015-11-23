@@ -90,7 +90,7 @@ end
 
 ### The Artist Model
 
-An artist will have many songs and it will have many genres *through* songs. These associations will be taken care of entirely through AR macros, which we'll get to in a bit. 
+An artist will have many songs and it will have many genres *through* songs. These associations will be taken care of entirely through AR macros, which we'll get to in a bit. What do we mean by *through* songs? The table songs is the `JOIN` table! Remember that from previous labs? That means that songs has both and `artist_id` and a `genre_id` to combine those two tables together in a many to many relationship.
 
 Let's take a look at what our artists table will need to look like:
 
@@ -246,18 +246,18 @@ In your console, run `rake console`. Now we are in a Pry console that accesses o
 Let's make a few new songs:
 
 ```bash
-[1]pry(main)> hello = Song.create(name: "Hello")
+[1]pry(main)> hello = Song.new(name: "Hello")
 => #<Song:0x007fc75a8de3d8 id: nil, name: "Hello", artist_id: nil, genre_id: nil>
-[2]pry(main)> hotline_bling = Song.create(name: "Hotline Bling")
+[2]pry(main)> hotline_bling = Song.new(name: "Hotline Bling")
 => #<Song:0x007fc75b9f3a38 id: nil, name: "Hotline Bling", artist_id: nil, genre_id: nil>
 ```
 
 Okay, here we have two songs. Let's make some artists to associate them to. In the *same PRY sessions as above*:
 
 ```bash
-[3] pry(main)> adele = Artist.create(name: "Adele")
+[3] pry(main)> adele = Artist.new(name: "Adele")
 => #<Artist:0x007fc75b8d9490 id: nil, name: "Adele">
-[4] pry(main)> drake = Artist.create(name: "Drake")
+[4] pry(main)> drake = Artist.new(name: "Drake")
 => #<Artist:0x007fc75b163c60 id: nil, name: "Drake">
 ```
 
@@ -289,7 +289,7 @@ Go ahead and do the same for `hotline_bling` and `drake`.
 We can also ask our artists what songs they have. Let's make a second song for adele first:
 
 ```bash
-[8] pry(main)> someone_like_you = Song.create(name: "Someone Like You")
+[8] pry(main)> someone_like_you = Song.new(name: "Someone Like You")
 => #<Song:0x007fc75b5cabc8 id: nil, name: "Someone Like You", artist_id: nil, genre_id: nil>
 [8] pry(main)> someone_like_you.artist = adele
 => #<Artist:0x007fc75b8d9490 id: nil, name: "Adele">
@@ -309,7 +309,7 @@ Huh? How can `adele`'s collection of songs be empty? We associated two songs wit
 Let's see this in action. Let's create another new song and add it to `adele`'s songs collection:
 
 ```bash
-[10] pry(main)> rolling_in_the_deep = Song.create(name: "Rolling in the Deep")
+[10] pry(main)> rolling_in_the_deep = Song.new(name: "Rolling in the Deep")
 => #<Song:0x007fc75bb4d1e0 id: nil, name: "Rolling in the Deep", artist_id: nil, genre_id: nil>
 ```
 
@@ -343,4 +343,22 @@ Let's play around with some genres and our has many through association.
 ```
 
 It's working!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
