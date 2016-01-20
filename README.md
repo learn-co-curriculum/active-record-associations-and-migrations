@@ -73,7 +73,11 @@ We can see that the songs table will have an `artist_id` column and a `genre_id`
 
 Let's write the migration that will make this happen. 
 
+<<<<<<< HEAD
 * Create a file, `db/migrations/001_create_song_table.rb`
+=======
+* Open a file, `db/migrate/01_create_song_table.rb`
+>>>>>>> master
 * Write the following migration:
 
 ```ruby
@@ -90,7 +94,7 @@ end
 
 ### The Artist Model
 
-An artist will have many songs and it will have many genres *through* songs. These associations will be taken care of entirely through AR macros, which we'll get to in a bit. What do we mean by *through* songs? The table songs is the `JOIN` table! Remember that from previous labs? That means that songs has both and `artist_id` and a `genre_id` to combine those two tables together in a many to many relationship.
+An artist will have many songs and it will have many genres *through* songs. These associations will be taken care of entirely through AR macros, which we'll get to in a bit. What do we mean by *through* songs? The table songs is the `JOIN` table! Remember that from previous labs? That means that songs has both an `artist_id` and a `genre_id` to combine those two tables together in a many to many relationship.
 
 Let's take a look at what our artists table will need to look like:
 
@@ -99,7 +103,8 @@ Let's take a look at what our artists table will need to look like:
 |---|-------------|
 |1  |Taylor Swift |
 
-Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/002_create_artists_table.rb`:
+
+Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/02_create_artists_table.rb`:
 
 ```ruby
 class CreateArtists < ActiveRecord::Migration
@@ -121,7 +126,9 @@ Let's take a look at what our genres table will need to look like:
 |---|-----|
 |1  |pop  |
 
-Let's write our migration. In `db/migrate/003_create_genres_table.rb`:
+
+Let's write our migration. In `db/migrate/03_create_genres_table.rb`:
+
 
 ```ruby
 class CreateGenres < ActiveRecord::Migration
@@ -345,20 +352,4 @@ Let's play around with some genres and our has many through association.
 It's working!
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href='https://learn.co/lessons/activerecord-associations-intro' data-visibility='hidden'>View this lesson on Learn.co</a>
