@@ -73,7 +73,7 @@ We can see that the songs table will have an `artist_id` column and a `genre_id`
 
 Let's write the migration that will make this happen. 
 
-* Open a file, `db/migrate/01_create_song_table.rb`
+* Open a file, `db/migrate/01_create_songs.rb`
 * Write the following migration:
 
 ```ruby
@@ -99,7 +99,7 @@ Let's take a look at what our artists table will need to look like:
 |---|-------------|
 |1  |Taylor Swift |
 
-Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/02_create_artists_table.rb`:
+Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/02_create_artists.rb`:
 
 ```ruby
 class CreateArtists < ActiveRecord::Migration
@@ -121,7 +121,7 @@ Let's take a look at what our genres table will need to look like:
 |---|-----|
 |1  |pop  |
 
-Let's write our migration. In `db/migrate/03_create_genres_table.rb`:
+Let's write our migration. In `db/migrate/03_create_genres.rb`:
 
 ```ruby
 class CreateGenres < ActiveRecord::Migration
