@@ -363,4 +363,4 @@ It's working!
 
 
 
-<a href='https://learn.co/lessons/activerecord-associations-intro' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro' title='Active Record Associations Introduction: Playlister'>Active Record Associations Introduction: Playlister</a> on Learn.co and start learning to code for free.</p>
