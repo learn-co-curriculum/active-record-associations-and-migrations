@@ -344,25 +344,4 @@ Let's play around with some genres and our has many through association.
 
 It's working!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro' title='Active Record Associations Introduction: Playlister'>Active Record Associations Introduction: Playlister</a> on Learn.co and start learning to code for free.</p>
-
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
