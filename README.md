@@ -40,7 +40,7 @@ We'll go through both of these steps together, using our Playlister domain model
 
 ## Overview
 
-In this walk-through, we'll build building out a domain model for our fictitious music playing app, Playlister. This app will catalogue songs and their associated artists and genres.  
+In this walk-through, we'll be building out a domain model for our fictitious music playing app, Playlister. This app will catalogue songs and their associated artists and genres.  
 
 We'll have three models: Artists, Songs, and Genres. By writing a few migrations and making use of the appropriate ActiveRecord macros (more on that later), we will be able to:
 
@@ -364,3 +364,5 @@ It's working!
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro' title='Active Record Associations Introduction: Playlister'>Active Record Associations Introduction: Playlister</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
