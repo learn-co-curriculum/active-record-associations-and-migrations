@@ -73,7 +73,7 @@ We can see that the songs table will have an `artist_id` column and a `genre_id`
 
 Let's write the migration that will make this happen. 
 
-* Open a file, `db/migrate/01_create_songs.rb`
+* Open a file, `db/migrate/03_create_songs.rb`
 * Write the following migration:
 
 ```ruby
@@ -355,3 +355,5 @@ It's working!
 * [Blog CLI with ActiveRecord and Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review-blog-cli-with-activerecord-and-associations)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
