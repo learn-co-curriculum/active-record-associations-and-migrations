@@ -344,4 +344,14 @@ Let's play around with some genres and our has many through association.
 
 It's working!
 
+## Video Reviews
+
+* [ActiveRecord Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review/blob/master/README.md) 
+
+* [ActiveRecord Associations II](https://github.com/learn-co-curriculum/activerecord-associations-video-review-ii) 
+
+* [Aliasing ActiveRecord Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review-aliasing-activerecord-associations)
+
+* [Blog CLI with ActiveRecord and Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review-blog-cli-with-activerecord-and-associations)
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
