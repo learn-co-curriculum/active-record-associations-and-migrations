@@ -346,14 +346,12 @@ It's working!
 
 ## Video Reviews
 
-* [ActiveRecord Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review/blob/master/README.md) 
+* [ActiveRecord Associations](https://www.youtube.com/watch?v=5dqPYRsQd10) 
 
-* [ActiveRecord Associations II](https://github.com/learn-co-curriculum/activerecord-associations-video-review-ii) 
+* [ActiveRecord Associations II](https://www.youtube.com/watch?v=l9JCzNN2Z2U) 
 
-* [Aliasing ActiveRecord Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review-aliasing-activerecord-associations)
+* [Aliasing ActiveRecord Associations](https://www.youtube.com/watch?v=WVBWlnUghOI)
 
-* [Blog CLI with ActiveRecord and Associations](https://github.com/learn-co-curriculum/activerecord-associations-video-review-blog-cli-with-activerecord-and-associations)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
+* [Blog CLI with ActiveRecord and Associations](https://www.youtube.com/watch?v=ZfJ1rqFcNFU)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>ActiveRecord Associations</a> on Learn.co and start learning to code for free.</p>
