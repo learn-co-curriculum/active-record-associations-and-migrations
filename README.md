@@ -121,7 +121,7 @@ Let's take a look at what our genres table will need to look like:
 |---|-----|
 |1  |pop  |
 
-Let's write our migration. In `db/migrate/03_create_genres.rb`:
+Let's write our migration. In `db/migrate/02_create_genres.rb`:
 
 ```ruby
 class CreateGenres < ActiveRecord::Migration
