@@ -99,7 +99,7 @@ Let's take a look at what our artists table will need to look like:
 |---|-------------|
 |1  |Taylor Swift |
 
-Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/02_create_artists.rb`:
+Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/01_create_artists.rb`:
 
 ```ruby
 class CreateArtists < ActiveRecord::Migration
