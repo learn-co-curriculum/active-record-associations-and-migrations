@@ -1,10 +1,8 @@
+require_relative '../spec_helper'
+
 describe 'Genre Associations' do
   before do
     @genre = Genre.create(name: "Hip Hop")
-  end
-
-  after do 
-    clean_database
   end
 
   it 'has many songs' do
@@ -23,5 +21,5 @@ describe 'Genre Associations' do
 
     expect(@genre.artists).to include(artist)
   end
-  
+
 end
