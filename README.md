@@ -77,7 +77,7 @@ Let's write the migration that will make this happen.
 * Write the following migration:
 
 ```ruby
-class CreateSongs < ActiveRecord::Migration
+class CreateSongs < ActiveRecord::Migration[4.2]
   def change
     create_table :songs do |t|
       t.string :name 
@@ -102,7 +102,7 @@ Let's take a look at what our artists table will need to look like:
 Our artists table just needs a `name` column. Let's write the migration. In `db/migrate/01_create_artists.rb`:
 
 ```ruby
-class CreateArtists < ActiveRecord::Migration
+class CreateArtists < ActiveRecord::Migration[4.2]
   def change
     create_table :artists do |t|
       t.string :name
@@ -124,7 +124,7 @@ Let's take a look at what our genres table will need to look like:
 Let's write our migration. In `db/migrate/02_create_genres.rb`:
 
 ```ruby
-class CreateGenres < ActiveRecord::Migration
+class CreateGenres < ActiveRecord::Migration[4.2]
   def change
     create_table :genres do |t|
       t.string :name 
