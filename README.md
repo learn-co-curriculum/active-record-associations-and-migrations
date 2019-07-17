@@ -9,7 +9,7 @@
 
 ## What are Active Record Associations?
 
-We already know that we can build our classes such that they associate to one
+We already know that we can build our classes such that they associate with one
 another. We also know that it takes a lot of code to do it. Active Record
 associations allow us to associate models *and their analogous database tables*
 without having to write tons of code.
@@ -351,8 +351,8 @@ it has. We can do this by pushing the song instance into `adele.songs`:
 ```
 
 Okay, now both sides of the relationships are updated, but so far all the work
-we've done has been with temporary instances of Artist and Song. In order to
-persist these relationships, we can use Active Record's `save` functionality:
+we've done has been with temporary instances of Artist and Song. To persist
+these relationships, we can use Active Record's `save` functionality:
 
 ```bash
 [8] pry(main)> adele.save
@@ -502,7 +502,7 @@ of songs, _the genre will now be able to produce its associated artists!_
 
 ## Conclusion
 
-So, order and direction of oprations does matter when establishing associations
+So, order and direction of operations does matter when establishing associations
 between models - it is typically better to update the `has_many` side of a
 relationship to get the full benefit of Active Record's power. Still, as we can
 see, with just migrations and Active Record macros, we can start to build and
