@@ -277,7 +277,9 @@ class Genre < ActiveRecord::Base
 end
 ```
 
-And that's it!
+And that's it! The tests in this lesson are in place to ensure you've properly
+set up these associations. You can go ahead and run `learn` now to see if you
+pass them all before continuing.
 
 ## Our Code in Action: Working with Associations
 
