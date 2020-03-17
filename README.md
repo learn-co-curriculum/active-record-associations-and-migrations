@@ -467,7 +467,7 @@ the database.
 
 Notice that `adele.songs` returns an array of songs. When a model `has_many` of
 something, it will store those objects in an array. To add to that collection,
-we use the shovel operator, `<<`, to operate on that collection, treat
+we use the shovel operator, `<<`, to operate on that collection, and treat
 `adele.songs` like any other array.
 
 Let's play around with some genres and our has many through association.
