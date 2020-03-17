@@ -462,7 +462,7 @@ songs collection:
 
 We added `rolling_in_the_deep` to `adele`'s collection of songs and we can see
 the `adele` knows it has that song in the collection *and* `rolling_in_the_deep`
-knows about its artist. Not only that, `rolling_in_the_deep` is not persisted to
+knows about its artist. Not only that, `rolling_in_the_deep` is now persisted to
 the database.
 
 Notice that `adele.songs` returns an array of songs. When a model `has_many` of
