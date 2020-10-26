@@ -520,4 +520,4 @@ persist associations between things!
 
 * [Blog CLI with Active Record and Associations](https://www.youtube.com/watch?v=ZfJ1rqFcNFU)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/activerecord-associations-intro'>Active Record Associations</a> on Learn.co and start learning to code for free.</p>
+
